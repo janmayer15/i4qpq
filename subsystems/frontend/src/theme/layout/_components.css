@@ -1,0 +1,248 @@
+/*TOPBAR MENU*/
+.layout-topbar {
+    height: 60px !important;
+}
+
+.layout-topbar .layout-menu-button {
+  padding-top: 0.5em !important;
+}
+
+/*Content Page*/
+.contentpage {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.contentcard{
+  padding: 20px !important;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.contentcard2{
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  margin-top: 15px;
+  margin-bottom:0px;
+  padding-bottom:0px !important;
+}
+
+.bottom{
+  display: flex;
+  vertical-align: bottom;
+}
+.top{
+  display: flex;
+  vertical-align: top;
+}
+
+.left{
+  text-align: left !important;
+}
+.right{
+  text-align: right !important;
+}
+
+/*CARD CSS*/
+.cardMargin{
+  margin: 5px;
+  line-height: 2.3em;
+  height: auto;
+  border-radius: 25px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon{
+  margin-right: 10px;
+  font-size: 1.6em !important;
+  background-color: white;
+  border-radius: 25px;
+  padding:10px;
+  margin-left: 5px;
+}
+
+.selectButton .pi{
+  font-size: 1.7em !important;
+}
+.selectButton{
+  float: right;
+}
+
+.p-progressbar {
+  height: 1.7rem;
+  background-color: #d2cece !important;
+  border-radius: 15px;
+}
+
+.titulo-negrita{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown_style{
+    /*width: 45%;*/
+    padding: 5px;
+}
+
+.dropdownMenu {
+    width: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    padding: 5px;
+}
+
+.p-dropdown-clear-icon {
+    padding-left: 5px;
+}
+
+.box{
+    margin-top: 10px;
+    border: solid;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px
+}
+
+.workstationCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.decoration{
+    background-color: #d00606 !important;
+    border-radius: 60px/20px !important;
+    margin-top: 15px;
+}
+
+.decorationUnabled{
+    background-color: #a58484 !important;
+    border-radius: 60px/20px !important;
+    margin-top: 15px;
+}
+
+.boton{
+    background-color: rgb(163,0,0) !important;
+    height: 45px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px !important;
+    margin: 15px auto !important;
+}
+.dropzone{
+    border-color: #c8c8c8 !important;
+    color: #909090 !important;
+}
+
+.spinner{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+.p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    background-color: #D90000 !important;
+    border: 1px solid #D90000 !important;
+    color: #ffffff;
+    padding: 0.571em 1em;
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link{
+    padding: 0.571em 1em;
+    margin-right: 2px;
+}
+body .p-tabview .pi {
+    margin-right: 0.5em;
+}
+body .pi-pencil, .pi-trash {
+    margin-right: 0em !important;
+}
+body .fc-button-group .pi-trash {
+    margin-right: 0.5em !important;
+}
+.pencil{
+    background-color: #116fbf !important;
+    border-color: #116fbf !important;
+}
+.p-button{
+    padding: 8px 15px;
+    font-size: 16px !important;
+    margin-right: 8px !important;
+}
+.export{
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+.export:hover{
+    background-color: #117687 !important;
+}
+
+.p-fileupload .p-button{
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+.p-fileupload .p-button:hover{
+    background-color: #1e7d34 !important;
+}
+
+.p-dialog-header{
+    padding: 0.75em !important;
+}
+
+.compare{
+    overflow-y:scroll;
+    border: solid 1px;
+    overflow-x: scroll;
+    height: 300px
+}
+
+.gantt{
+    overflow-y:scroll;
+    border: solid 1px;
+    overflow-x: scroll;
+    height: 600px
+}
+
+.cards_list{
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.status-new{
+    color: #439daa !important;
+    font-weight: bolder !important;
+}
+
+.status-qualified{
+    color: #6ccb5e !important;
+    font-weight: bolder !important;
+}
+
+.status-unqualified{
+    color: #ee6868 !important;
+    font-weight: bolder !important;
+}
+
+.ID{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inlineStyle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}

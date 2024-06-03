@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  frontend:
+    build: ../subsystems/frontend
+    container_name: frontend
+    ports:
+      - '8083:8082'

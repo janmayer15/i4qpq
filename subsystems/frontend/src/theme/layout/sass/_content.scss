@@ -1,0 +1,4 @@
+.layout-main {
+    @include transition(margin-left $transitionDuration);
+    padding: 60px 0px 16px 0px;
+}

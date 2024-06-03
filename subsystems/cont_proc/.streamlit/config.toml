@@ -1,0 +1,11 @@
+[theme]
+base="light"
+primaryColor="#8064a2"
+secondaryBackgroundColor="#e6e6e6"
+textColor="#595959"
+font="monospace"
+
+[global]
+
+showWarningOnDirectExecution = false
+

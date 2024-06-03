@@ -1,0 +1,156 @@
+.Production{
+  background-color: #61D42D;
+  color: #222333;
+}
+.Production .h1-new{
+  color: white;
+  padding: 5px;
+  padding-bottom: 2px !important;
+  border-radius: 5px;
+  background-color: #339000;
+}
+.status-Production{
+  color: #339000;
+  font-weight: bold;
+  padding-left: 10px;
+  background-color: #89ee5c;
+}
+.product{
+  color: #339000;
+}
+
+.UnjustifiedStop{
+  border-color: #fbc948;
+  background-color: #f59988;
+  color: #222333;
+}
+.UnjustifiedStop .h1-new{
+  color: white;
+  padding: 5px;
+  padding-bottom: 2px !important;
+  border-radius: 5px;
+  background-color: #fd3513;
+  border: solid 2px #fddd85;
+}
+.status-UnjustifiedStop{
+  color: #fd3513;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: #fddd85;
+}
+.unStop{
+  color: #ff2600;
+  border: 2px solid #fbc948;
+}
+
+.Failed{
+  background-color: #fa593c;
+  color: #222333;
+}
+.Failed .h1-new{
+  color: white;
+  padding: 5px;
+  padding-bottom: 2px !important;
+  border-radius: 5px;
+  background-color: #ff0000;
+  border: solid 2px #780000;
+}
+.status-Failed{
+  color: #780000;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: #ff0000;
+}
+.fail{
+  color: #ff0000;
+}
+
+.Slowproduction{
+  border-color: #fbc948;
+  color: #222333;
+  background-color: #DFF6D5;
+}
+.Slowproduction .h1-new{
+  color: #222333;
+  padding: 5px;
+  padding-bottom: 2px !important;
+  border-radius: 5px ;
+  background-color: #84ee65;
+  border: solid 2px #fbc948;
+}
+.status-Slowproduction{
+  color: #ffe7a5;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: #84ee65;
+}
+.iconSlow{
+  color: #84ee65;
+  border: 2px solid #fbc948;
+}
+
+.Plannedstop{
+  background-color: #6ec5ff;
+  color: #222333;
+}
+.Plannedstop .h1-new{
+  color: white;
+  padding: 5px;
+  padding-bottom: 2px !important;
+  border-radius: 5px;
+  background-color: #025a9a;
+}
+.status-Plannedstop{
+  color: #025a9a;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: #6ec5ff;
+}
+.planStop{
+  color: #025a9a;
+}
+
+.Unplannedstop{
+  background-color: #e3e3e3;
+}
+.Unplannedstop .h1-new{
+  color: white;
+  padding: 5px;
+  padding-bottom: 2px !important;
+  border-radius: 5px;
+  background-color: #797979;
+}
+.status-Unplannedstop{
+  color: #797979;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: #F1F1F1;
+}
+.unplanned{
+  color: #797979;
+  /*text-shadow: 2px 2px 3px #3b3e47;*/
+}
+
+
+.alert{
+    color: red;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    border: solid orange;
+    background-color: white
+}
+
+.activeAlarms{
+    padding: 5px 25px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.High {
+    border: solid red;
+}
+
+.Medium{
+    border: solid orange;
+}
