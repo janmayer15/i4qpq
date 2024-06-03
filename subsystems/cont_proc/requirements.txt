@@ -1,5 +1,5 @@
 streamlit
-pillow==8.4.0
+pillow==9.0.1
 matplotlib==3.4.3
 numpy>=1.21.0
 pandas==1.4.1
@@ -7,7 +7,7 @@ pymongo==4.0.2
 fitter==1.4.0
 sklearn==0.0
 seaborn
-confluent-kafka==1.9.2
+confluent-kafka==1.8.2
 scipy
 scikit-learn
 uuid
